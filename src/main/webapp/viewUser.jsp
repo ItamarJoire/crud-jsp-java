@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html;charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
     
 <%@ page import="bean.User, dao.UserDao, java.util.*" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="ISO-8859-1">
 		<script src="https://cdn.tailwindcss.com"></script>
 		<script>
 		    tailwind.config = {
@@ -19,7 +19,7 @@
 		      }
 		    }
 		  </script>
-		<title>VisualizaÃ§Ã£o</title>
+		<title>Visualização</title>
 	</head>
 	<body class="bg-gray-300">
 	
@@ -42,9 +42,7 @@
 		          <c:forEach items="${list}" var="user">
 		            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
 		                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-		                    ${user.getName()}
-		             
-		                    
+		                    ${user.getName()} 
 		                </th>
 		                <td class="px-6 py-4">${user.getEmail()}</td>        
 		                <td class="px-6 py-4">

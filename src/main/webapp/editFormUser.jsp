@@ -1,8 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="ISO-8859-1">
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
     tailwind.config = {
@@ -15,7 +15,7 @@
       }
     }
   </script>
-<title>Editar usu√°rio</title>
+<title>Editar usu·rio</title>
 </head>
 <body class="bg-gray-300">
 	<%@ page import="bean.User, dao.UserDao, java.util.*" %>

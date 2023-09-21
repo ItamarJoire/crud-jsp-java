@@ -18,9 +18,9 @@ public class UserDao {
 		    Class.forName("com.mysql.cj.jdbc.Driver");
 
 		    // ESTABELECE A CONEXÃO
-		    String url = "jdbc:mysql://localhost:3306/banco_de_dados";
-		    String username = "seu_usuario";
-		    String password = "sua_senha";
+		    String url = "jdbc:mysql://localhost:3306/crud_java";
+		    String username = "root";
+		    String password = "123456";
 		    
 		    conn = DriverManager.getConnection(url, username, password);
 		} catch (Exception e) {

@@ -5,5 +5,4 @@
 <%
 	int i = UserDao.updateUser(u);
 	response.sendRedirect("viewUser.jsp");
-	
 %>
